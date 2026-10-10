@@ -1,0 +1,8 @@
+{
+  "name": "vinted-studio",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev:web": "npm run dev -w apps/web"
+  }
+}
